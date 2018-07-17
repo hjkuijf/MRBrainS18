@@ -1,0 +1,6 @@
+FROM continuumio/miniconda
+MAINTAINER hjkuijf
+
+RUN pip install numpy SimpleITK
+
+ADD python /mrbrains18_example
